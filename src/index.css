@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #131315;
+    color: #e5e1e4;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0e0e10;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a2a2c;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5e3f3c;
+  }
+}
+
+.font-serif-gothic {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Atmospheric Glows & Shadows */
+.glow-crimson {
+  box-shadow: 0 0 20px rgba(255, 84, 81, 0.35);
+}
+
+.glow-crimson-sm {
+  box-shadow: 0 0 10px rgba(255, 84, 81, 0.4);
+}
+
+.glow-crimson-lg {
+  box-shadow: 0 0 35px rgba(255, 84, 81, 0.5);
+}
+
+.shadow-gothic-card {
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.85);
+}
+
+.shadow-gothic-modal {
+  box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.85), 0px 0px 32px 0px rgba(138, 11, 22, 0.15);
+}
+
+.safe-pb {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}

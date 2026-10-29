@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Montserrat:wght@600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#131315;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed": "#311117", "primary-container": "#ff5451", "primary-fixed": "#ffdad7", "surface": "#131315", "surface-container-low": "#1b1b1d", "primary": "#ffb3ad", "on-primary-fixed": "#410004", "on-primary": "#68000a", "on-surface": "#e5e1e4", "inverse-surface": "#e5e1e4", "on-secondary-fixed-variant": "#8f1019", "surface-dim": "#131315", "tertiary-container": "#b58489", "surface-container": "#201f21", "tertiary-fixed-dim": "#f0b8be", "on-error": "#690005", "on-tertiary-fixed-variant": "#633c41", "outline-variant": "#5e3f3c", "on-background": "#e5e1e4", "on-secondary-fixed": "#410004", "inverse-primary": "#c0001d", "inverse-on-surface": "#303032", "surface-variant": "#353437", "on-error-container": "#ffdad6", "surface-bright": "#39393b", "tertiary-fixed": "#ffd9dc", "on-surface-variant": "#e8bcb9", "secondary-fixed": "#ffdad7", "secondary": "#ffb3ae", "outline": "#ae8784", "tertiary": "#f0b8be", "surface-container-highest": "#353437", "primary-fixed-dim": "#ffb3ad", "secondary-container": "#8f1019", "on-tertiary": "#4a262b", "on-primary-container": "#5c0008", "surface-tint": "#ffb3ad", "surface-container-lowest": "#0e0e10", "on-secondary-container": "#ff9992", "error": "#ffb4ab", "secondary-fixed-dim": "#ffb3ae", "surface-container-high": "#2a2a2c", "on-secondary": "#68000b", "error-container": "#93000a", "on-primary-fixed-variant": "#930013", "background": "#131315", "on-tertiary-container": "#421f24" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "margin-sm": "1rem", "gutter": "1.5rem", "gutter-sm": "1rem", "space-sm": "0.5rem", "space-md": "1rem", "space-2xl": "4rem", "space-lg": "1.5rem", "space-xl": "2.5rem", "margin": "2rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-xl": [ "Playfair Display" ], "headline-md": [ "Playfair Display" ], "display-lg-mobile": [ "Playfair Display" ], "body-sm": [ "Inter" ], "price-md": [ "Montserrat" ], "headline-xl-mobile": [ "Playfair Display" ], "headline-lg": [ "Playfair Display" ], "body-lg": [ "Inter" ], "body-md": [ "Inter" ], "price-lg": [ "Montserrat" ], "label-lg": [ "Montserrat" ], "display-lg": [ "Playfair Display" ], "headline-sm": [ "Playfair Display" ], "label-md": [ "Montserrat" ], "label-sm": [ "Montserrat" ] }, "fontSize": { "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "600" } ], "display-lg-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "body-sm": [ "13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "price-md": [ "17px", { "lineHeight": "24px", "letterSpacing": "0.02em", "fontWeight": "700" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "600" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "0em", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-md": [ "15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" } ], "price-lg": [ "22px", { "lineHeight": "28px", "letterSpacing": "0.02em", "fontWeight": "700" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "700" } ] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]"><div class="h-16 px-gutter-sm flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Gothic Sweets Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XAAWMfiIplGoY-CmPNyfQCezAPY1v244Cfz3g3nJPs6Ob-BXo44pAMx26Rn4362RU4tHPjyl50aTWNaX7AgdJEP8DiwuZzmFVvtqwTsAsGjJzExsIocuMHTnLNMvOfiqFszf0bMpZC8xtUTRU2x3GaCEGsA6PysDo52IT8IHbThdqU59RK4A0zQ3LrqxqGrZG3vTgsfP0F2hQCimZyMelFbRBBaf0ydbDAMmENMde4"/><div class="flex flex-col truncate"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate">Готические Сладости</span><div class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">г. Астана • Доставка</span></div></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><a aria-label="Корзина" class="relative w-11 h-11 flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-path="cart" href="#"><span class="material-symbols-outlined text-[24px]">shopping_bag</span><span class="absolute top-1.5 right-1.5 min-w-[18px] h-[18px] px-1 bg-primary-container text-on-primary-container font-price-md text-[11px] rounded-full flex items-center justify-center leading-none font-bold">3</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-20 bg-surface flex-grow"><div class="flex flex-col w-full pb-6 px-margin-sm gap-space-lg">
+<!-- Header & Mini Delight Badge -->
+<div class="flex items-baseline justify-between pt-space-md">
+<div>
+<h1 class="font-headline-xl-mobile text-headline-xl-mobile text-on-surface tracking-tight">Ваша Корзина</h1>
+<p class="font-label-md text-label-md uppercase tracking-wider text-outline">3 редких сокровища</p>
+</div>
+<div class="flex items-center gap-space-xs px-2.5 py-1 bg-surface-container-high rounded-full shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">Бронь 15:00 мин</span>
+</div>
+</div>
+<!-- Cart Items List -->
+<div class="flex flex-col gap-space-sm" id="cart-items-container">
+<!-- Item 1 -->
+<div class="relative flex gap-space-md p-3.5 bg-surface-container rounded-xl shadow-md overflow-hidden group transition-all" data-item-id="item-1" data-unit-price="450">
+<div class="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Dark aesthetic luxury Halloween Kinder egg crafted with glossy midnight obsidian chocolate, intricate gothic filigree engravings, subtle crimson ruby dusting, dramatic cavernous spotlighting, hyper-detailed food photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDN1moEKv5Q5YeiGtEEAq0uoU6lCysG2tZSzMLXWQLDCk1UAaDJpWpi4qGP4bxAqKoIF2MHB4SmHNeXUDbgTdzau19emvfWREEwH251D7d4S3EOj0gv_BT8UHg8cKwh7-2owWGudH8mi4bOZNn9BIwqYcNhJXJwMBcsiYDCY4sKsQYeCTWPNynbOH2QYFuqUeGXRvL8X8lTel0df5lwAczoBZT4z8-lD9qBjY-ZBIbC"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate leading-tight">Хэллоуинский Kinder Dark</h2>
+<span class="font-label-sm text-label-sm text-outline">Тёмный какао 74% • 1 шт</span>
+</div>
+<button aria-label="Удалить позицию" class="cart-remove-btn text-outline hover:text-primary-container p-1 transition-colors flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+<div class="flex items-center justify-between mt-space-xs">
+<div class="flex items-center bg-surface-container-lowest rounded-md p-0.5 shadow-inner">
+<button class="qty-btn decrement-btn w-6 h-6 flex items-center justify-center text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">remove</span>
+</button>
+<span class="qty-value font-price-md text-price-md px-2 min-w-[20px] text-center text-on-surface font-semibold">1</span>
+<button class="qty-btn increment-btn w-6 h-6 flex items-center justify-center text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+<div class="text-right">
+<span class="item-total-price font-price-md text-price-md text-primary font-bold">450 ₸</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="relative flex gap-space-md p-3.5 bg-surface-container rounded-xl shadow-md overflow-hidden group transition-all" data-item-id="item-2" data-unit-price="650">
+<div class="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Artisanal deep black and blood-red jelly sweets sculpted like faceted hearts and teardrops, glossy translucent texture, dusted with crystalline black sugar, moody gothic studio setup, dark luxury food photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0Xz40-rqNLRJiKoxP2jkczI_rJKmbOxtXIra9ZUXrNt3TsXjd1BjUk_7RRjDwfNrooEqusl7qa-gJBt8cbPvs17dGi24y_QvPMGYxGxuuauVZyqqKQmWFHqhbzWu-yxkr2UtMtwq8SdEXJbQ1eMuVBUhgfsdSRTJB0mcf1T7PhOxF-xE5HzK8xPpJn0rfa1zTkiSHHVKnMPYCvJsNxGXV7DgRvGAxCa3jNtF64LAb"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate leading-tight">Мармелад «Черная Кровь Вампира» 150 г</h2>
+<span class="font-label-sm text-label-sm text-outline">Дикая вишня • 650 ₸ / шт</span>
+</div>
+<button aria-label="Удалить позицию" class="cart-remove-btn text-outline hover:text-primary-container p-1 transition-colors flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+<div class="flex items-center justify-between mt-space-xs">
+<div class="flex items-center bg-surface-container-lowest rounded-md p-0.5 shadow-inner">
+<button class="qty-btn decrement-btn w-6 h-6 flex items-center justify-center text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">remove</span>
+</button>
+<span class="qty-value font-price-md text-price-md px-2 min-w-[20px] text-center text-on-surface font-semibold">2</span>
+<button class="qty-btn increment-btn w-6 h-6 flex items-center justify-center text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+<div class="text-right">
+<span class="item-total-price font-price-md text-price-md text-primary font-bold">1 300 ₸</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="relative flex gap-space-md p-3.5 bg-surface-container rounded-xl shadow-md overflow-hidden group transition-all" data-item-id="item-3" data-unit-price="550">
+<div class="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Gourmet dark chocolate candy bar dusted with edible black charcoal ash and smoked sea salt, rich salted caramel oozing, cracked roasted peanuts, dramatic deep crimson low-key illumination" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjz8MZoXe_HmI7RJ65e8UQ_oDxMY-_a-Ny2ckn5yD1IRFoQ_r25PPb1V5CXpIOruiDPhbQ8pg2KtgN2QnlnRa9ZvWFHi3mGhnCHeHDTgH6nYngGdOQvEYAoDW9Rr4pMKK3r3FmCm2DzH2MJ5NFptzfN6duAaSOl27hAXJs-GpI6al8oV2DBhrlpwYb_-sk6l9KYXMsRU9mkp3rDOxxf_1zysJJKOC6tduvK_IuoVmI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate leading-tight">Батончик Snickers Темный Пепел</h2>
+<span class="font-label-sm text-label-sm text-outline">Пепельная карамель • 1 шт</span>
+</div>
+<button aria-label="Удалить позицию" class="cart-remove-btn text-outline hover:text-primary-container p-1 transition-colors flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+<div class="flex items-center justify-between mt-space-xs">
+<div class="flex items-center bg-surface-container-lowest rounded-md p-0.5 shadow-inner">
+<button class="qty-btn decrement-btn w-6 h-6 flex items-center justify-center text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">remove</span>
+</button>
+<span class="qty-value font-price-md text-price-md px-2 min-w-[20px] text-center text-on-surface font-semibold">1</span>
+<button class="qty-btn increment-btn w-6 h-6 flex items-center justify-center text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+<div class="text-right">
+<span class="item-total-price font-price-md text-price-md text-primary font-bold">550 ₸</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Promo Code Input Group -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider" for="promo-input">Магический код скидки</label>
+<div class="flex gap-space-xs p-1 bg-surface-container-lowest rounded-xl shadow-inner">
+<div class="relative flex-grow flex items-center pl-3">
+<span class="material-symbols-outlined text-outline text-[18px] mr-2">token</span>
+<input class="w-full bg-transparent text-on-surface placeholder:text-surface-variant font-body-sm text-body-sm focus:outline-none uppercase tracking-wide" id="promo-input" placeholder="Промокод (напр. NOCTURNE)" type="text"/>
+</div>
+<button class="px-4 py-2.5 bg-primary-container text-on-primary-container rounded-lg font-label-md text-label-md uppercase tracking-wider font-semibold shadow-md active:scale-95 transition-transform" id="promo-btn" type="button">
+        Применить
+      </button>
+</div>
+<div class="hidden font-label-sm text-label-sm text-primary px-1" id="promo-status"></div>
+</div>
+<!-- Astana Express Courier Delivery Notice -->
+<div class="relative p-4 bg-surface-container-low rounded-xl shadow-md overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-28 h-28 bg-primary-container/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-start gap-3 relative z-10">
+<div class="w-9 h-9 rounded-lg bg-secondary-container flex items-center justify-center flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-on-secondary-container text-[20px]">two_wheeler</span>
+</div>
+<div class="flex flex-col gap-1 min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md uppercase font-bold text-on-surface tracking-wider">Курьерская доставка по Астане</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+</div>
+<p class="font-body-sm text-body-sm text-outline-variant leading-relaxed">
+          Доставка исключительно курьером в черте г. Астана. Привезем в течение 45 минут в герметичном термобоксе с сухим льдом. Самовывоз временно недоступен.
+        </p>
+</div>
+</div>
+</div>
+<!-- Price Breakdown Card -->
+<div class="flex flex-col gap-space-sm p-4 bg-surface-container rounded-xl shadow-lg">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-outline">
+<span>Стоимость сладостей</span>
+<span class="font-price-md text-price-md text-on-surface font-semibold" id="sweets-subtotal">2 300 ₸</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-outline">
+<div class="flex items-center gap-1">
+<span>Экспресс-доставка курьером (Астана)</span>
+</div>
+<span class="font-price-md text-price-md text-on-surface font-semibold" id="delivery-cost">700 ₸</span>
+</div>
+<div class="h-px w-full bg-surface-container-high my-1"></div>
+<div class="flex items-baseline justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">Итого к оплате</span>
+<span class="font-label-sm text-label-sm text-outline">Включая НДС и термоупаковку</span>
+</div>
+<span class="font-price-lg text-price-lg text-primary-container font-extrabold tracking-wide drop-shadow-[0_0_12px_rgba(255,84,81,0.4)]" id="cart-total-amount">
+        3 000 ₸
+      </span>
+</div>
+</div>
+<!-- Primary CTA Action Button -->
+<div class="flex flex-col gap-2 pt-1">
+<button class="w-full py-4 px-6 bg-primary-container text-on-primary-container rounded-xl font-label-lg text-label-lg uppercase tracking-widest font-bold shadow-[0_8px_24px_rgba(255,84,81,0.35)] active:scale-[0.98] transition-all flex items-center justify-center gap-2" id="checkout-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">lock</span>
+<span>Перейти к оформлению (3 000 ₸)</span>
+</button>
+<div class="flex items-center justify-center gap-4 py-1 text-outline">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">ac_unit</span>
+<span class="font-label-sm text-label-sm">Холодовая цепь</span>
+</div>
+<span class="text-surface-variant">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">format_image_left</span>
+<span class="font-label-sm text-label-sm">Безопасная оплата Kaspi / Картой</span>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const deliveryFee = 700;
+    const itemsContainer = document.getElementById('cart-items-container');
+    const sweetsSubtotalEl = document.getElementById('sweets-subtotal');
+    const totalAmountEl = document.getElementById('cart-total-amount');
+    const checkoutBtn = document.getElementById('checkout-btn');
+
+    function formatKzt(val) {
+      return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " ₸";
+    }
+
+    function recalculateTotal() {
+      let subtotal = 0;
+      const items = itemsContainer.querySelectorAll('[data-item-id]');
+      items.forEach(card => {
+        const unit = parseInt(card.getAttribute('data-unit-price'), 10) || 0;
+        const qty = parseInt(card.querySelector('.qty-value').textContent, 10) || 0;
+        subtotal += unit * qty;
+      });
+
+      sweetsSubtotalEl.textContent = formatKzt(subtotal);
+      const grandTotal = subtotal > 0 ? (subtotal + deliveryFee) : 0;
+      totalAmountEl.textContent = formatKzt(grandTotal);
+
+      if (grandTotal === 0) {
+        checkoutBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">shopping_bag</span><span>Корзина пуста</span>';
+        checkoutBtn.disabled = true;
+        checkoutBtn.classList.add('opacity-50');
+      } else {
+        checkoutBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">lock</span><span>Перейти к оформлению (' + formatKzt(grandTotal) + ')</span>';
+        checkoutBtn.disabled = false;
+        checkoutBtn.classList.remove('opacity-50');
+      }
+    }
+
+    itemsContainer.addEventListener('click', function(e) {
+      const card = e.target.closest('[data-item-id]');
+      if (!card) return;
+
+      const unitPrice = parseInt(card.getAttribute('data-unit-price'), 10);
+      const qtyEl = card.querySelector('.qty-value');
+      const itemPriceEl = card.querySelector('.item-total-price');
+
+      if (e.target.closest('.increment-btn')) {
+        let count = parseInt(qtyEl.textContent, 10);
+        count++;
+        qtyEl.textContent = count;
+        itemPriceEl.textContent = formatKzt(count * unitPrice);
+        recalculateTotal();
+      } else if (e.target.closest('.decrement-btn')) {
+        let count = parseInt(qtyEl.textContent, 10);
+        if (count > 1) {
+          count--;
+          qtyEl.textContent = count;
+          itemPriceEl.textContent = formatKzt(count * unitPrice);
+          recalculateTotal();
+        } else {
+          card.classList.add('opacity-0', 'scale-95');
+          setTimeout(() => {
+            card.remove();
+            recalculateTotal();
+          }, 200);
+        }
+      } else if (e.target.closest('.cart-remove-btn')) {
+        card.classList.add('opacity-0', 'scale-95');
+        setTimeout(() => {
+          card.remove();
+          recalculateTotal();
+        }, 200);
+      }
+    });
+
+    const promoBtn = document.getElementById('promo-btn');
+    const promoInput = document.getElementById('promo-input');
+    const promoStatus = document.getElementById('promo-status');
+
+    promoBtn.addEventListener('click', function() {
+      const val = promoInput.value.trim().toUpperCase();
+      if (!val) return;
+      promoStatus.classList.remove('hidden');
+      if (val === 'NOCTURNE') {
+        promoStatus.textContent = 'Магический код принят: Трюфельный комплимент добавлен к заказу!';
+        promoStatus.className = 'font-label-sm text-label-sm text-primary px-1 block';
+      } else {
+        promoStatus.textContent = 'Печать рассеялась: промокод не найден в гримуаре.';
+        promoStatus.className = 'font-label-sm text-label-sm text-error px-1 block';
+      }
+    });
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.7)]" data-active-classes="text-primary-container"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-full text-outline hover:text-on-surface transition-colors" data-path="catalog" href="#"><span class="material-symbols-outlined text-[22px]">auto_stories</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Каталог</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-full text-outline hover:text-on-surface transition-colors" data-path="search" href="#"><span class="material-symbols-outlined text-[22px]">search</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Поиск</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-full text-outline hover:text-on-surface transition-colors relative" data-path="cart" href="#"><div class="relative flex items-center justify-center"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute -top-1 -right-2 min-w-[14px] h-[14px] bg-primary-container text-on-primary-container font-label-sm text-[9px] rounded-full flex items-center justify-center font-bold px-0.5">3</span></div><span class="font-label-sm text-label-sm uppercase tracking-wider">Корзина</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-full text-outline hover:text-on-surface transition-colors" data-path="orders" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Заказы</span></a></div></nav></body></html>

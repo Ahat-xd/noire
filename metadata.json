@@ -1,0 +1,6 @@
+{
+  "name": "Nocturne Sweets - Готические Сладости Астана",
+  "description": "Элитная кондитерская темных десертов и готических сладостей с экспресс-доставкой в термобоксах по Астане.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
